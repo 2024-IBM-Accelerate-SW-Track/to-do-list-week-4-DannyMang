@@ -1,6 +1,11 @@
 import { render, screen } from '@testing-library/react';
 import { unmountComponentAtNode } from 'react-dom';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
+import Axios from 'axios';
+jest.mock('axios');
 
 let container = null;
 beforeEach(() => {

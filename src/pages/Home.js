@@ -43,6 +43,7 @@ class Home extends Component {
       todos: new_list,
     });
   };
+  
   render() {
     return (
       <div className="Home">
